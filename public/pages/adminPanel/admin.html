@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Pages/adminPanel/admin.css">
+    <link rel="stylesheet" href="/Pages/adminPanel/nav.css">
+    <link rel="stylesheet" href="/Pages/adminPanel/todo.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Brilliant Store</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__bar">
+            <a href="../../index.html"><svg class="header__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 52">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #00cde2;
+                            }
+
+                            .cls-2 {
+                                fill: #fff;
+                                opacity: 0.4;
+                            }
+                        </style>
+                    </defs>
+                    <title>Diamond</title>
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="Layer_1-2" data-name="Layer 1">
+                            <path class="cls-1" d="M64,16a4,4,0,0,1-1,2.63l-28,32a4,4,0,0,1-6,0l-28-32a4,4,0,0,1,.18-5.46l12-12A4,4,0,0,1,16,0H48a4,4,0,0,1,2.83,1.17l12,12A4,4,0,0,1,64,16Z" />
+                            <polygon class="cls-2" points="26 0 18 16 32 16 46 16 38 0 26 0" />
+                            <path class="cls-2" d="M18,16,32,52a4,4,0,0,1-3-1.37l-28-32A4,4,0,0,1,0,16Z" />
+                            <path class="cls-2" d="M64,16a4,4,0,0,1-1,2.63l-28,32A4,4,0,0,1,32,52L46,16Z" />
+                        </g>
+                    </g>
+                </svg></a>
+        </div>
+
+        <input type="checkbox" id="nav-toggle" hidden>
+        <nav class="nav">
+            <label for="nav-toggle" class="nav-toggle" onclick></label>
+            <p class="text">Тимофеев</p>
+            <p class="text">Захар</p>
+            <ul>
+                <li><a class="itemsAction" href="#1">Взаимодейстиве с товаром</a>
+                <li><a class="raffle" href="#2">Раффлы</a>
+                <li><a class="xz" href="#3">Взаимодействие админов</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="app" id="app">
+            <h1>To-do</h1>
+            <form class="form" v-on:submit="addTodo">
+                <input class="input form__input" v-model="inputVal" />
+                <button class="btn form__submit-btn" type="submit">Add</button>
+            </form>
+            <transition-group tag="ol" name="list" class="todo-list">
+                <li class="todo-list__item" v-bind:class="{ complete: todo.complete }" v-bind:key="index" v-for="(todo, index) in filteredTodos">
+                    <button class="todo-list__item-content" v-on:click="toggleTodo(todo)">
+                        {{ todo.text }}
+                    </button>
+                    <button class="btn todo-list__item-remove" v-on:click="deleteTodo(index)">
+                        <i class="fa" v-bind:class="[todo.complete ? 'fa-check' : 'fa-times']"></i>
+                    </button>
+                </li>
+            </transition-group>
+            <div class="filters">
+                <button class="btn filters__btn filters__btn--all" v-on:click="filterTodos('all')">
+                    All
+                </button>
+                <button class="btn filters__btn filters__btn--complete" v-on:click="filterTodos('complete')">
+                    Complete
+                </button>
+                <button class="btn filters__btn filters__btn--incomplete" v-on:click="filterTodos('incomplete')">
+                    Incomplete
+                </button>
+            </div>
+        </div>
+
+        <!-- <div class="form">
+            form
+        </div> -->
+    </main>
+
+    <!-- <footer>
+        <div class="links">
+            <a class="link link__vk" href="https://vk.com/zakhar0401" target="_blank">
+                <i class='bx bxl-vk'></i>
+            </a>
+            <a class="link link__telegram" href="https://t.me/Zahar01" target="_blank">
+                <i class='bx bxl-telegram'></i>
+            </a>
+        </div>
+    </footer> -->
+
+    <script src="./script/main.js"></script>
+    <script src="./script/button.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+</body>
+<script src="./script/load.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="/Pages/adminPanel/todo.js"></script>
+
+</html>

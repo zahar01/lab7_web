@@ -1,0 +1,123 @@
+[
+
+    {
+        "id": "001",
+        "img": "db/img/black_tee.png",
+        "name": "Черная толстовка",
+        "label": "new",
+        "description": "Black",
+        "price": "1500р",
+        "category": "Clothing",
+        "gender": "Mens"
+    },
+    {
+        "id": "002",
+        "img": "db/img/white_tee.png",
+        "name": "Белая толстовка",
+        "label": "new",
+        "description": "White",
+        "price": "1500р",
+        "category": "Clothing",
+        "gender": "Mens"
+    },
+    {
+        "id": "003",
+        "img": "db/img/smile_shoes.png",
+        "name": "Кроссовки",
+        "label": "bestseller",
+        "description": "Multicolor",
+        "price": "3000р",
+        "category": "Shoes",
+        "gender": "Mens"
+    },
+    {
+        "id": "004",
+        "img": "db/img/star_pin.png",
+        "name": "Пин 'Звездочка'",
+        "label": "new",
+        "description": "Metallic pin",
+        "price": "500р",
+        "category": "Accessories",
+        "gender": "Mens"
+    },
+    {
+        "id": "005",
+        "img": "db/img/trousers.png",
+        "name": "Стилевые Белые Штанцы",
+        "label": "bestseller",
+        "description": "Jeans",
+        "price": "1750р",
+        "category": "Clothing",
+        "gender": "Womens"
+    },
+    {
+        "id": "006",
+        "img": "db/img/black-trousers.png",
+        "name": "Стилевые Черные Штанцы",
+        "label": "bestseller",
+        "description": "Jeans",
+        "price": "1750р",
+        "category": "Clothing",
+        "gender": "Womens"
+    },
+    {
+        "id": "007",
+        "img": "db/img/panama.png",
+        "name": "Панама Клевая Белая",
+        "label": "bestseller",
+        "description": "Panama sheeesh",
+        "price": "1000р",
+        "category": "Accessories",
+        "gender": "Mens"
+    },
+    {
+        "id": "007",
+        "img": "db/img/panama-black.png",
+        "name": "Панама Клевая Черная",
+        "label": "bestseller",
+        "description": "Panama sheeesh",
+        "price": "1000р",
+        "category": "Accessories",
+        "gender": "Mens"
+    },
+    {
+        "id": "009",
+        "img": "db/img/sun.png",
+        "name": "Пин 'Солнышко'",
+        "label": "new",
+        "description": "Metallic pin",
+        "price": "500р",
+        "category": "Accessories",
+        "gender": "Womens"
+    },
+    {
+        "id": "010",
+        "img": "db/img/slanci.png",
+        "name": "Сланцы для пляжа",
+        "label": "new",
+        "description": "White",
+        "price": "700р",
+        "category": "Shoes",
+        "gender": "Mens"
+    },
+    {
+        "id": "011",
+        "img": "db/img/dress.png",
+        "name": "Сарафан молодежный",
+        "label": "bestseller",
+        "description": "White",
+        "price": "1890р",
+        "category": "Clothing",
+        "gender": "Womens"
+    },
+    {
+        "id": "012",
+        "img": "db/img/blue-dress.png",
+        "name": "Сарафан молодежный голубой",
+        "label": "new",
+        "description": "Blue",
+        "price": "1890р",
+        "category": "Clothing",
+        "gender": "Womens"
+    }
+]
