@@ -1,0 +1,16 @@
+[
+    {
+        "id": "001",
+        "name": "Zakhar",
+        "email": "ztimofeev0401@gmail.com",
+        "password": "qwertyN",
+        "status": "admin"
+    },
+    {
+        "id": "002",
+        "name": "Zakhar",
+        "email": "coolestmonkey1337@gmail.com",
+        "password": "qwertyN",
+        "status": "customer"
+    }
+]

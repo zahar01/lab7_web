@@ -1,0 +1,20 @@
+[
+    {
+        "id": "001",
+        "new": "yes",
+        "type": "raffle",
+        "description": "Участвуйте в новом розыгрыше на возможность покупки лимитированной пары Nike CactusJack 3",
+        "date": "17.11.2021",
+        "time": "17:00 - 21:00",
+        "img": "db/events_img/raffle_001.png"
+    },
+    {
+        "id": "002",
+        "new": "no",
+        "type": "sale",
+        "description": "Скидки 20%",
+        "date": "17.01.2022",
+        "time": "17:00 - 21:00",
+        "img": "/db/img/sale_001.png"
+    }
+]
