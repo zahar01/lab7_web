@@ -5,7 +5,7 @@ import { APP_INTERCEPTOR } from '@nestjs/core';
 import { LoggingInterceptor } from './logging.interceptor';
 
 @Module({
-  imports: [],
+  imports: [ ],
   controllers: [AppController],
   providers: [
     AppService,
