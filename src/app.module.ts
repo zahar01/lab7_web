@@ -15,7 +15,7 @@ import { ItemsModule } from './items/items.module';
       username: 'rjkeodderxszol',
       password: '048274445a91d812f5ea1b8aba312f6f10f3f5d6c4f4d563c6c2d013f6746ede',
       database: 'd74qjtmv65e4jk',
-      entities: [],
+      entities: ['dist/*/entities/.entities{.ts,.js}'],
       synchronize: true,
       ssl: { rejectUnauthorized: false }
     }),
