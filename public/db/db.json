@@ -5,7 +5,7 @@
         "name": "Черная толстовка",
         "label": "new",
         "description": "Black",
-        "price": "1500р",
+        "price": "1500",
         "category": "Clothing",
         "gender": "Mens"
     },
@@ -15,7 +15,7 @@
         "name": "Белая толстовка",
         "label": "new",
         "description": "White",
-        "price": "1500р",
+        "price": "1500",
         "category": "Clothing",
         "gender": "Mens"
     },
@@ -25,7 +25,7 @@
         "name": "Кроссовки",
         "label": "bestseller",
         "description": "Multicolor",
-        "price": "3000р",
+        "price": "3000",
         "category": "Shoes",
         "gender": "Mens"
     },
@@ -35,7 +35,7 @@
         "name": "Пин 'Звездочка'",
         "label": "new",
         "description": "Metallic pin",
-        "price": "500р",
+        "price": "500",
         "category": "Accessories",
         "gender": "Mens"
     },
@@ -45,7 +45,7 @@
         "name": "Стилевые Белые Штанцы",
         "label": "bestseller",
         "description": "Jeans",
-        "price": "1750р",
+        "price": "1750",
         "category": "Clothing",
         "gender": "Womens"
     },
@@ -55,7 +55,7 @@
         "name": "Стилевые Черные Штанцы",
         "label": "bestseller",
         "description": "Jeans",
-        "price": "1750р",
+        "price": "1750",
         "category": "Clothing",
         "gender": "Womens"
     },
@@ -65,7 +65,7 @@
         "name": "Панама Клевая Белая",
         "label": "bestseller",
         "description": "Panama sheeesh",
-        "price": "1000р",
+        "price": "1000",
         "category": "Accessories",
         "gender": "Mens"
     },
@@ -75,7 +75,7 @@
         "name": "Панама Клевая Черная",
         "label": "bestseller",
         "description": "Panama sheeesh",
-        "price": "1000р",
+        "price": "1000",
         "category": "Accessories",
         "gender": "Mens"
     },
@@ -85,7 +85,7 @@
         "name": "Пин 'Солнышко'",
         "label": "new",
         "description": "Metallic pin",
-        "price": "500р",
+        "price": "500",
         "category": "Accessories",
         "gender": "Womens"
     },
@@ -95,7 +95,7 @@
         "name": "Сланцы для пляжа",
         "label": "new",
         "description": "White",
-        "price": "700р",
+        "price": "700",
         "category": "Shoes",
         "gender": "Mens"
     },
@@ -105,7 +105,7 @@
         "name": "Сарафан молодежный",
         "label": "bestseller",
         "description": "White",
-        "price": "1890р",
+        "price": "1890",
         "category": "Clothing",
         "gender": "Womens"
     },
@@ -115,7 +115,7 @@
         "name": "Сарафан молодежный голубой",
         "label": "new",
         "description": "Blue",
-        "price": "1890р",
+        "price": "1890",
         "category": "Clothing",
         "gender": "Womens"
     }
