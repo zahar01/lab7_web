@@ -2,7 +2,7 @@ const container = document.querySelector('.container');
 const categories = document.querySelectorAll('.categories__type');
 
 const getItems = async () => {
-  const result = await fetch('db/db.json');
+  const result = await fetch('https://brilliant-xd.herokuapp.com/items');
   if (!result.ok) {
     throw 'ASHIBKA: ' + result.status;
   }
@@ -16,9 +16,8 @@ const getItems = async () => {
 const createItem = function ({ name, img, price }) {
   const card = document.createElement('div');
   card.className = 'item';
-
+  // <img src="${img}" alt="" className="item__photo">
   card.innerHTML = `
-        <img src="${img}" alt="" class="item__photo">
         <p class="item__name">${name}</p>
         <button class="item__add-to-cart">${price}</button>
 	`;

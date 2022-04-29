@@ -1,8 +1,9 @@
-import { Body, Controller, Delete, Get, Param, Post } from "@nestjs/common";
+import { Body, Controller, Delete, Get, Param, Post, UsePipes } from "@nestjs/common";
 import { ItemsService } from "./items.service";
 import { Item } from "./entities/items.entities";
 import { AddItemDto } from "./dto/add-item.dto";
 import { ApiOperation, ApiResponse, ApiTags } from "@nestjs/swagger";
+import { ValidationPipe } from "../pipes/validation.pipe";
 
 @ApiTags("Items")
 @Controller('items')
