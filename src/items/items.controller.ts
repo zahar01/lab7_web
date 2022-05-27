@@ -19,7 +19,7 @@ export class ItemsController {
 
   @ApiOperation({summary:"Getting item by id"})
   @ApiResponse({status: 200, type:Item})
-  @Get("getItemById/:id")
+    @Get("getItemById/:id")
   async GetItem(@Param("id") id:number):Promise<Item> {
     return await this.itemsService.GetItem(id)
   }

@@ -6,6 +6,7 @@ import { Interceptor } from './interceptor';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ItemsModule } from './items/items.module';
 import { UsersModule } from './users/users.module';
+import { AppGateway } from './app.gateway';
 
 @Module({
   imports: [
@@ -24,6 +25,6 @@ import { UsersModule } from './users/users.module';
     UsersModule,
   ],
   controllers: [AppController],
-  providers: [AppService, { provide: APP_INTERCEPTOR, useClass: Interceptor }],
+  providers: [AppGateway, AppService, { provide: APP_INTERCEPTOR, useClass: Interceptor }],
 })
 export class AppModule {}
